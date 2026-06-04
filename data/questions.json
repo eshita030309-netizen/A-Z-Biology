@@ -1,0 +1,62 @@
+[
+  {
+    "id": "found-chem-1",
+    "topic": "Foundations: Chemistry of Life",
+    "difficulty": "easy",
+    "type": "mcq",
+    "question": "Which property of water helps regulate body temperature?",
+    "options": [
+      "Low specific heat",
+      "High specific heat",
+      "Being nonpolar",
+      "Lack of hydrogen bonding"
+    ],
+    "answerIndex": 1,
+    "explanation": "Water has a high specific heat, so it resists rapid temperature changes."
+  },
+  {
+    "id": "cell-1",
+    "topic": "Cell Biology",
+    "difficulty": "easy",
+    "type": "mcq",
+    "question": "Which organelle is the main site of ATP production in eukaryotic cells?",
+    "options": [
+      "Nucleus",
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Lysosome"
+    ],
+    "answerIndex": 2,
+    "explanation": "Mitochondria are the primary site of aerobic ATP production."
+  },
+  {
+    "id": "gen-1",
+    "topic": "Genetics",
+    "difficulty": "medium",
+    "type": "mcq",
+    "question": "Two heterozygous parents (Aa × Aa) have a child. What is the probability the child is homozygous recessive?",
+    "options": [
+      "0",
+      "1/4",
+      "1/2",
+      "3/4"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Punnett square gives AA, Aa, Aa, aa, so 1/4 are aa."
+  },
+  {
+    "id": "evo-1",
+    "topic": "Evolution",
+    "difficulty": "medium",
+    "type": "mcq",
+    "question": "Which process is most likely to decrease genetic variation in a small population?",
+    "options": [
+      "Mutation",
+      "Gene flow",
+      "Genetic drift",
+      "Random mating"
+    ],
+    "answerIndex": 2,
+    "explanation": "Genetic drift, especially bottlenecks and founder effects, can reduce variation in small populations."
+  }
+]
