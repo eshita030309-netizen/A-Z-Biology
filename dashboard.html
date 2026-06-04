@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BioMind | Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="assets/logo.svg" alt="BioMind logo" class="logo" />
+      <span class="brand">BioMind</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tutor.html">AI Tutor</a>
+      <a href="learn.html">Learn</a>
+      <a href="tools.html">Tools</a>
+      <a href="practice.html">Practice</a>
+      <a href="dashboard.html" class="active">Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-header">
+      <h1>Your study dashboard</h1>
+      <p>This is a simple local dashboard. Later, it can be connected to real accounts.</p>
+    </section>
+
+    <section class="dashboard-grid">
+      <div class="dash-card">
+        <h2>Study streak</h2>
+        <p id="dash-streak">0 days</p>
+      </div>
+      <div class="dash-card">
+        <h2>Questions answered</h2>
+        <p id="dash-questions">0</p>
+      </div>
+      <div class="dash-card">
+        <h2>Strong topics</h2>
+        <p id="dash-strong">–</p>
+      </div>
+      <div class="dash-card">
+        <h2>Weak topics</h2>
+        <p id="dash-weak">–</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 BioMind · Built by Eshita Boddepalli</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
