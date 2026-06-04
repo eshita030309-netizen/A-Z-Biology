@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BioMind | Learning Paths</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="assets/logo.svg" alt="BioMind logo" class="logo" />
+      <span class="brand">BioMind</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tutor.html">AI Tutor</a>
+      <a href="learn.html" class="active">Learn</a>
+      <a href="tools.html">Tools</a>
+      <a href="practice.html">Practice</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-header">
+      <h1>Biology learning paths</h1>
+      <p>Move from foundations to university‑level biology with structured paths.</p>
+    </section>
+
+    <section id="learning-paths" class="path-grid">
+      <!-- Filled by app.js from data/topics.json and data/learning-paths.json (later) -->
+      <article class="path-card">
+        <h2>Foundations</h2>
+        <p>Chemistry of life, cells, basic genetics, and evolution for middle–high school.</p>
+        <ul>
+          <li>Chemistry of Life</li>
+          <li>Cell Biology</li>
+          <li>Intro Genetics</li>
+          <li>Intro Evolution</li>
+        </ul>
+      </article>
+
+      <article class="path-card">
+        <h2>AP / High School Biology</h2>
+        <p>AP Biology units 1–8 with notes, diagrams, and practice.</p>
+        <ul>
+          <li>Chemistry of Life</li>
+          <li>Cell Structure & Function</li>
+          <li>Cellular Energetics</li>
+          <li>Heredity & Gene Expression</li>
+        </ul>
+      </article>
+
+      <article class="path-card">
+        <h2>University Biology</h2>
+        <p>General Biology I & II, molecular, cell, genetics, physiology, ecology, and evolution.</p>
+        <ul>
+          <li>Chemical Foundations & Molecular Biology</li>
+          <li>Cellular Structure & Genetics</li>
+          <li>Evolutionary & Organismal Biology</li>
+        </ul>
+      </article>
+
+      <article class="path-card">
+        <h2>MCAT Biology & Biochemistry</h2>
+        <p>Targeted review for MCAT‑style passages and questions.</p>
+        <ul>
+          <li>Biochemistry pathways</li>
+          <li>Cellular processes</li>
+          <li>Genetics & evolution</li>
+          <li>Physiology systems</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 BioMind · Built by Eshita Boddepalli</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
