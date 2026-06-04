@@ -1,2 +1,2 @@
 # A-Z-Biology
-A–Z Biology is a complete biology learning platform that teaches every major biology concept from middle school fundamentals to college, pre-med, and MCAT-level topics through structured lessons, interactive tools, quizzes, and AI-powered explanations.
+A–Z Biology is a comprehensive biology education platform designed to guide learners through the entire field of biology—from basic life science concepts and cell biology to genetics, biochemistry, physiology, microbiology, ecology, evolution, and advanced biomedical sciences. Organized into a step-by-step curriculum, A–Z Biology provides lessons, visual explanations, practice questions, interactive learning tools, and AI-assisted tutoring to help students master biology at every level.
