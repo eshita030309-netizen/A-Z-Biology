@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BioMind | AI Biology Tutor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="assets/logo.svg" alt="BioMind logo" class="logo" />
+      <span class="brand">BioMind</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tutor.html" class="active">AI Tutor</a>
+      <a href="learn.html">Learn</a>
+      <a href="tools.html">Tools</a>
+      <a href="practice.html">Practice</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-header">
+      <h1>AI Biology Tutor</h1>
+      <p>Ask questions, get explanations, and generate practice instantly.</p>
+    </section>
+
+    <section class="tutor-layout">
+      <div class="tutor-sidebar">
+        <h2>Quick prompts</h2>
+        <button class="chip" data-prompt="Explain photosynthesis like I'm 12.">Photosynthesis (simple)</button>
+        <button class="chip" data-prompt="Teach me the Krebs cycle step by step.">Krebs cycle</button>
+        <button class="chip" data-prompt="Quiz me on Mendelian genetics.">Mendelian genetics quiz</button>
+        <button class="chip" data-prompt="Explain action potentials in neurons.">Action potentials</button>
+      </div>
+
+      <div class="tutor-main">
+        <div id="tutor-messages" class="tutor-messages">
+          <div class="message bot">
+            <p>Hi, I’m the BioMind tutor. Ask me anything about biology, or use a quick prompt on the left.</p>
+          </div>
+        </div>
+        <form id="tutor-form" class="tutor-input">
+          <input
+            type="text"
+            id="tutor-input"
+            placeholder="Ask a biology question, e.g. 'Explain glycolysis'..."
+            autocomplete="off"
+          />
+          <button type="submit">Send</button>
+        </form>
+        <div class="tutor-actions">
+          <button class="btn small" data-action="simplify">Simplify this</button>
+          <button class="btn small" data-action="quiz">Make a quiz</button>
+          <button class="btn small" data-action="flashcards">Make flashcards</button>
+        </div>
+        <p class="hint">
+          This is a UI shell. You can later connect it to an AI backend. For now, it echoes your questions.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 BioMind · Built by Eshita Boddepalli</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
