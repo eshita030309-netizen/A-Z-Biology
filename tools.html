@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BioMind | Tools & Simulations</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="assets/logo.svg" alt="BioMind logo" class="logo" />
+      <span class="brand">BioMind</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tutor.html">AI Tutor</a>
+      <a href="learn.html">Learn</a>
+      <a href="tools.html" class="active">Tools</a>
+      <a href="practice.html">Practice</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-header">
+      <h1>Interactive biology tools</h1>
+      <p>Use these mini‑simulators to visualize and play with biology concepts.</p>
+    </section>
+
+    <section class="tool-grid">
+      <article class="tool-card">
+        <h2>DNA Builder</h2>
+        <p>Build DNA strands and see complementary base pairing.</p>
+        <button class="btn small" data-tool="dna">Open DNA builder</button>
+      </article>
+
+      <article class="tool-card">
+        <h2>Protein Synthesis</h2>
+        <p>Transcribe DNA to mRNA and translate codons to amino acids.</p>
+        <button class="btn small" data-tool="protein">Open protein synthesis</button>
+      </article>
+
+      <article class="tool-card">
+        <h2>Punnett Square Lab</h2>
+        <p>Cross genotypes and see offspring probabilities.</p>
+        <button class="btn small" data-tool="punnett">Open Punnett lab</button>
+      </article>
+
+      <article class="tool-card">
+        <h2>Hardy–Weinberg Calculator</h2>
+        <p>Explore allele and genotype frequencies in populations.</p>
+        <button class="btn small" data-tool="hw">Open HW calculator</button>
+      </article>
+    </section>
+
+    <section id="tool-panel" class="tool-panel hidden">
+      <h2 id="tool-title"></h2>
+      <div id="tool-content"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 BioMind · Built by Eshita Boddepalli</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
