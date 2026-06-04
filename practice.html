@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>BioMind | Practice Center</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="nav-left">
+      <img src="assets/logo.svg" alt="BioMind logo" class="logo" />
+      <span class="brand">BioMind</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="tutor.html">AI Tutor</a>
+      <a href="learn.html">Learn</a>
+      <a href="tools.html">Tools</a>
+      <a href="practice.html" class="active">Practice</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section class="page-header">
+      <h1>Practice questions</h1>
+      <p>Generate endless questions by topic and difficulty.</p>
+    </section>
+
+    <section class="quiz-section">
+      <div class="quiz-controls">
+        <select id="practice-topic">
+          <option value="all">All topics</option>
+          <option value="Foundations: Chemistry of Life">Foundations: Chemistry of Life</option>
+          <option value="Cell Biology">Cell Biology</option>
+          <option value="Genetics">Genetics</option>
+          <option value="Evolution">Evolution</option>
+        </select>
+        <select id="practice-difficulty">
+          <option value="all">All difficulties</option>
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="practice-generate">Generate Question</button>
+      </div>
+
+      <div id="practice-card" class="quiz-card hidden">
+        <p id="practice-question" class="quiz-question"></p>
+        <ul id="practice-options" class="quiz-options"></ul>
+        <button id="practice-reveal" class="hidden">Reveal Answer</button>
+        <p id="practice-explanation" class="quiz-explanation hidden"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 BioMind · Built by Eshita Boddepalli</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
